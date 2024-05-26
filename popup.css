@@ -11,19 +11,27 @@
     display: none;
 }
 .popup .content{
-    position: absolute;
-    top: 50%;
+    position:absolute;
+    top: 60%;
     left: 50%;
     transform: translate(-50%,-50%) scale(0);
     background: #fff;
-    width: 450px;
-    height: 220px;
+    width: 50vw;
+    height: 65vh;
     z-index: 2;
     text-align: center;
     padding: 20px;
     box-sizing: border-box;
 }
+/* .popup .content h2{
+    border-bottom: 20px;
+} */
 .popup .content p{
+    /* position: absolute;
+    top: 10%;
+    left: 0; */
+    text-align: justify;
+    padding: 25px;
     font-size: 23px;
 }
 .popup .close-btn {
